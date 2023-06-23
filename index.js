@@ -9,7 +9,7 @@ const { url } = require('inspector');
 const { Socket } = require('dgram');
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 const client = new Client({
