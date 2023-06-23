@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { API_KEY_RM_BG } = require('../config');
+const { API_KEY_RM_BG } = require('./config');
 
 const EditPhotoHandler = async (text, msg) => {
     const cmd = text.split('/');
