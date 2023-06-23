@@ -1,5 +1,5 @@
 const qrcode = require('qrcode-terminal');
-const { EditPhotoHandler } = require('./feature/edit_foto');
+const { EditPhotoHandler } = require('./edit_foto');
 const axios = require('axios')
 const fs = require("fs")
 const { Client, LegacySessionAuth, LocalAuth, MessageMedia} = require('whatsapp-web.js');
